@@ -23,14 +23,13 @@ public class AutoBlockTest {
         MockitoAnnotations.initMocks(this);
     }
 
-    @Test
+    //@Test
     public void addItemIngotsTest()
     {
 
         ItemStack itemStack = mock(ItemStack.class);
 
         AutoBlock ab = new AutoBlock();
-
         ab.addItem(player, itemStack);
     }
 
